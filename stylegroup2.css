@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #afaa5f;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin: 1rem;
+}
+
+#hero-area {
+  background-image: url('img/ENT\ 300\ LOGO\ BERWARNA.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-area h1 {
+  font-size: 4rem;
+  margin-bottom: 1;
+}
+
+    .contact {
+        .contact {
+            background-color: #f9f9f9;
+            padding: 100px 0;
+            text-align: center;
+          }
+          
+          .contact h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #333;
+          }
+          
+          .contact input,
+          .contact textarea {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+          }
+          
+          .contact textarea {
+            height: 150px;
+          }
+          
+          .contact button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+          }
+          
+          .contact button:hover {
+            background-color: #555;
+          }
+      }
+      
+      /* Footer */
+      footer {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
